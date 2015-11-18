@@ -23,7 +23,6 @@ namespace TestConsoleApp
             LeftVal = leftVal;
             RightVal = rightVal;
             Operation = operation;
-            //Type = ElementType.Composed;
         }
 
         public override float Calculate() {
@@ -53,9 +52,7 @@ namespace TestConsoleApp
                 op = OperationType.Minus;
             } else if (op == OperationType.Minus && withMinus) {
                 op = OperationType.Plus;
-            //    withMinus = false;
             }
-    //        Console.WriteLine("CASE " + op.ToString());
             switch (op)
             {
                 case OperationType.Plus:
@@ -96,7 +93,6 @@ namespace TestConsoleApp
 
                     break;
             }
-           // Console.WriteLine("OP "+Operation.ToString()+" / " + op.ToString() +" withMinus: "+withMinus+ " val: " + val);
             return val;
         }
 
@@ -104,7 +100,6 @@ namespace TestConsoleApp
         public override string ToTree() {
             var op = Operation;
             string val = "";
-            //        Console.WriteLine("CASE " + op.ToString());
             switch (op) {
                 case OperationType.Plus:
                     val = LeftVal.ToTree() + " + " + RightVal.ToTree();

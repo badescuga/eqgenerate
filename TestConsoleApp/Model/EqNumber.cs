@@ -15,7 +15,6 @@ namespace TestConsoleApp
 
         public EqNumber(float val) {
             Val = val;
-            //Type = ElementType.Simple;
             Operation = OperationType.None;
         }
 

@@ -64,7 +64,6 @@ namespace TestConsoleApp
                 Console.WriteLine("== arg not int");
             }
             Console.ReadLine();
-
         }
     }
 }
