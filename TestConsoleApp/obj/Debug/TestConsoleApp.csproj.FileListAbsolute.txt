@@ -1,0 +1,6 @@
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\bin\Debug\TestConsoleApp.exe.config
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\bin\Debug\TestConsoleApp.exe
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\bin\Debug\TestConsoleApp.pdb
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\obj\Debug\TestConsoleApp.exe
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\obj\Debug\TestConsoleApp.pdb
+C:\Users\a-gabade\Desktop\TestConsoleApp\TestConsoleApp\obj\Debug\TestConsoleApp.csprojResolveAssemblyReference.cache
